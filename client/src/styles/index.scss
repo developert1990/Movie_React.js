@@ -1,0 +1,26 @@
+@import './components/Nav.scss';
+@import './components/Header.scss';
+@import './components/Feature.scss';
+@import './components/Body.scss';
+@import './components/Footer.scss';
+@import './components/Signin.scss';
+@import './components/Signup.scss';
+@import './components/Browse.scss';
+@import './components/BrowseHeader.scss';
+@import './components/Row.scss';
+@import './components/Profile.scss';
+
+
+*{
+    margin: 0;
+
+}
+
+body, html{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: black;
+        color: #333333;
+        font-size: 16px;
+}

@@ -1,0 +1,46 @@
+.profile {
+    position: relative;
+    &:hover>.profile__dropdown__none {
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+        .profile__dropdown__info{
+            display: flex;
+            h6{
+                font-size: 16px;
+                display: flex;
+                align-items: flex-end;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+        margin: 0;
+    }
+
+    .profile__dropdown__none {
+        display: none;
+        position: absolute;
+        height: 100px;
+        background-color: rgba(0,0,0,0.75);
+        padding: 15px;
+        width: 150px;
+        top: 40px;
+        right: 15px;
+    }
+
+    .profile__signout__button{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+
+}

@@ -1,0 +1,10 @@
+.header{
+    background-image: url('/images/joker__fade2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 1000px){
+        margin: 0 30px;
+    }
+}

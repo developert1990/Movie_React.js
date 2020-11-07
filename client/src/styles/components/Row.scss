@@ -1,0 +1,89 @@
+
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    text-align: center;
+
+    .row__poster {
+        width: 230px;
+        height: 330px;
+        transition: transform 200ms;
+
+        .row__item {
+            position: relative;
+        }
+        
+    }
+
+    .row__item:hover {
+        transform: scale(1.20);
+    }
+
+    .row__item:hover>.row__item__dec {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+
+
+    .row__item__dec {
+        position: absolute;
+        bottom: 0;
+        font-size: 10px;
+        display: none;
+
+        width: 100%;
+        background-color: #0000008f;
+        padding: 10px;
+
+        .row__item__title {
+            font-size: 17px;
+            font-weight: bolder;
+        }
+
+        .row__item__overview {
+            margin-bottom: 0;
+        }
+
+        
+    }
+
+
+    .row__item__clicked__show{
+        position: relative;
+
+        .row__clicked_desc{
+            background-color: #0000008f;
+            padding: 10px;
+            margin-left: 10px;
+            border-radius: 10px;
+            margin-bottom: 35px;
+        }
+        .row__clicked__title{
+            font-size: 26px;
+            font-weight: bolder;
+        }
+
+        .row__clicked__overview{
+            width: 400px;
+        }
+
+        .row__close {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            cursor: pointer;
+            background-color: transparent;
+            border: 0;
+        }
+        .row__clicked__button{
+            display: flex;
+            margin-left: 40px;
+        }
+    }
+
+
+}
